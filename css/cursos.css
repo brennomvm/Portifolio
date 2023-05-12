@@ -1,0 +1,120 @@
+.cursos{
+    margin-top: 5rem;
+}
+
+.dankicode{
+    display: flex;
+    background-color:var(--cor-de-fundo);
+    align-items:center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 10px;
+    min-height: 200px;
+}
+
+.dankicodeText{
+    padding-left: 1.8rem;
+}
+
+.dankicode h1{
+    text-align: left;
+    padding-bottom: 1.8rem;
+    font-weight: bold;
+}
+
+.udemy{   
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    background-color:var(--cor-de-fundo);
+    max-width: 1200px;
+    border-radius: 10px;
+    min-height: 200px;
+}
+
+.udemy h1 {
+    text-align: left;
+    padding-bottom: 1.8rem;
+    font-weight: bold;
+}
+
+.CursoEmVideo{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    border-radius: 10px;
+    min-height: 200px;
+    margin: 3rem auto;
+    background-color:var(--cor-de-fundo);
+
+}
+
+.CursoEmVideo h1 {
+    text-align: left;
+    padding-bottom: 1.8rem;
+    font-weight: bold;
+}
+
+.cursoemvideotext{
+    padding-left: 1.8rem;
+}
+
+.ADS{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    border-radius: 10px;
+    min-height: 200px;
+    margin: 3rem auto;
+    background-color:var(--cor-de-fundo);
+ 
+}
+
+.ADS h1{
+    text-align: left;
+    padding-bottom: 1.8rem;
+    font-weight: bold;
+}
+
+
+.ufs{
+    
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    border-radius: 10px;
+    min-height: 200px;
+    margin: 3rem auto;
+    background-color:var(--cor-de-fundo);
+}
+
+.ufs h1{
+    text-align: left;
+    padding-bottom: 1.8rem;
+    font-weight: bold;
+}
+
+.cursos span{
+    font-size: 17px;
+}
+.cursos h1{
+    font-weight: bolder;
+    color: #FFF;
+}
+
+
+@media (max-width:430px){
+
+    .cursos{
+        margin: 3rem;
+    }
+
+    .dankicode, .ADS, .CursoEmVideo,.udemy {
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+    }
+
+  
+}

@@ -1,0 +1,101 @@
+main{
+    color: #FFF;
+}
+
+
+.introducao{
+    padding: 2rem;
+    width: 75%;
+    
+}
+
+
+
+.introducao h1{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 1.7rem;
+    padding-bottom: 2rem;
+    
+}
+
+.introducao span{
+    font-weight: 550;
+    word-spacing: 1px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+.introavatar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.links-intro{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+
+.link-intro{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+
+
+.link1 img{
+    width: 60px;height: 60px; border-radius: 10px;
+}
+
+.link1:hover img{
+    width: 80px;
+    height: 80px;
+    transition: 0.4s;
+}
+.link2 img{
+    width: 40px;height: 40px; border-radius: 10px;
+}
+
+.link2:hover img{
+    width: 60px;
+    height: 60px;
+    transition: 0.4s;
+}
+
+.link-intro , .link-intro2{
+    width: 100%;
+}
+
+@media (max-width:900px){
+    .links-intro{
+        width: 80vw;
+    }
+}
+
+@media (max-width:563px){
+    .introducao{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:500px){
+    .introducao h1{
+        width: 100vw;
+    }
+}

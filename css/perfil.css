@@ -1,0 +1,132 @@
+.perfil{
+    
+    width: 70%;
+    max-height: 800px;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 6rem auto;
+    
+}
+
+
+.perfil p{
+    font-weight: 300;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    text-align: left;
+    width: 80%;
+   
+    
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    border-radius: 10px;
+    min-height: 150px;
+    background-color: var(--cor-de-fundo);
+    padding: auto;
+
+    
+}
+.redes{
+    display: flex;
+    align-items: center;
+    
+}
+
+.redes a{
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 10px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.redes:hover a{
+        font-size: 22px;
+        transition: 0.4s;
+}
+
+
+.borda{
+    border: 1px solid #FFF;
+}
+
+
+.redes span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    animation-name:brilho;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out ;
+    animation-iteration-count:infinite;
+}
+
+
+.redes span:nth-of-type(2){
+    animation-delay: 0.25s;  
+}
+.redes span:nth-of-type(3){
+    animation-delay: 0.50s;  
+}
+.redes span:nth-of-type(4){
+    animation-delay: 0.75s;  
+}
+.redes span:nth-of-type(5){
+    animation-delay: 1.0s;  
+}
+.redes span:nth-of-type(6){
+    animation-delay: 1.25s; 
+}
+
+.redes span:nth-of-type(7){
+  animation-delay: 1.5s; 
+}
+.redes span:nth-of-type(8){
+ animation-delay: 1.75s;
+ }
+ .redes span:nth-of-type(9){
+animation-delay: 1.8s; 
+}
+
+
+@keyframes brilho {
+    0%{
+        color: #FFF;
+        text-shadow: 0 0 12px var(--white),
+        0 0 50px var(--white),
+        0 0 100px var(--white)
+    }
+    10%, 90%{
+        color: var(--corcinza);
+        text-shadow: none ;
+    }
+}
+
+@media (max-width : 930px){
+
+    .links{
+        width: 90vw;
+        justify-content: space-between;
+    }
+
+    .perfil p{
+        width: 100vw;
+    }
+}
+
+
+@media (max-width : 616px){
+
+    .links{
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
+    }
+
+}

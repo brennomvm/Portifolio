@@ -1,0 +1,451 @@
+.projetos{
+    background-color: var(--cor-de-fundo);
+   
+}
+
+.projetos1{
+    width: 100%;
+    border-radius: 10px;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+
+.box1{
+    position: relative;
+    max-width: 510px;
+    max-height: 500px;    
+}
+.box1 img{
+    border-radius: 5px; 
+    margin: 0rem; 
+    max-width: 350px;
+    height: 250px;
+}
+.box1:hover img{
+    opacity: 40%;
+}
+
+.box1 .content{
+    width: 94%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -180%;
+    transition: 0.2s ease-in-out;
+    padding: 70px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 .content p{
+    color: #fff;
+    font-size: 14px;
+    
+}
+
+
+.box1:hover .content{
+    transform: translateX(195%);
+}
+.box1:hover .content p{
+   color: #FFF;
+   font-weight: bold;
+   
+}
+
+
+.box1 p button{
+    cursor: pointer;
+    background-color:#d3ab43;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.box1 h2{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+.box2{
+    border-radius: 10px;
+    position: relative;
+    max-width: 510px;
+    max-height: 500px;
+    overflow: hidden;
+    
+}
+
+.box2 img{
+    border-radius: 10px; 
+    margin: 0rem;
+    height: 250px;            
+    max-width: 350px;
+}
+.box2:hover img{
+    opacity: 40%;
+}
+
+.box2 .content{
+    width: 94%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -100%;
+    transition: 0.2s ease-in-out;
+    padding: 70px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box2 .content p{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+
+.box2:hover .content{
+    transform: translateX(110%);
+}
+.box2:hover .content p{
+   color: #FFF;
+   font-weight: bold;
+   word-spacing: 1px;
+   margin-top: 2rem;
+  
+   
+}
+
+
+.box2 p button{
+    cursor: pointer;
+    background-color:#fb3333;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.box2 h2{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+.box3{
+    border-radius: 10px;
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+    
+}
+
+.box3 img{
+    border-radius: 10px; 
+    margin: 0rem; 
+    height: 250px;
+    max-width: 350px; 
+    object-fit:cover;
+    
+}
+.box3:hover img{
+    opacity: 40%;
+}
+
+.box3 .content{
+    width: 95%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -100%;
+    transition: 0.2s ease-in-out;
+    padding: 70px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content p{
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    
+}
+
+
+.box3:hover .content{
+    transform: translateX(110%);
+}
+.box3:hover .content p{
+   color: #FFF;
+   font-weight: bold;
+   
+}
+
+
+.box3 p button{
+    cursor: pointer;
+    background-color:#f09909;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+
+.box3 h2{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+
+
+
+
+.projetos2{
+    width: 100%;
+    border-radius: 10px;
+    min-height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+.box4{
+    border-radius: 10px;
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+ 
+}
+
+.box4 img{
+    border-radius: 10px; 
+    margin: 0rem; 
+    max-height: 350px;
+    height: 250px;
+}
+
+.box4:hover img{
+    opacity: 30%;
+}
+
+.box4 .content{
+    width: 94%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -100%;
+    transition: 0.2s ease-in-out;
+    padding: 70px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box4 .content p{
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+
+.box4:hover .content{
+    transform: translateX(110%);
+}
+.box4:hover .content p{
+   color: #FFF;
+   font-weight: bold;
+   font-size: 20px;
+   
+}
+
+
+.box4 p button{
+    cursor: pointer;
+    background-color: #d4d3d2 ;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+
+.box4 h2{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+.box5{
+    border-radius: 10px;
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+   
+    
+}
+
+
+.box5 img{
+    border-radius: 10px; 
+    margin: 0rem; 
+    height: 250px;
+    width: 350px;
+}
+.box5:hover img{
+    opacity: 40%;
+}
+
+.box5 .content{
+    width: 94%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -100%;
+    transition: 0.2s ease-in-out;
+    padding: 70px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box5 .content p{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin: auto ;
+    
+}
+
+
+.box5:hover .content{
+    transform: translateX(110%);
+}
+.box5:hover .content p{
+   color: #FFF;
+   font-weight: bold;
+   font-size: 18px;
+   
+}
+
+
+.box5 p button{
+    cursor: pointer;
+    background-color: #c5cce4;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+
+.box5 h2{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+@media (max-width:408px){
+    .projeto1 img{
+        padding: 2rem;
+    }
+}
+
+@media (max-width:1230px){
+    .box1{
+        padding: 1rem;
+    }
+    .box1 img{
+        width: 300px; 
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .box2 img{
+        width: 300px;
+        height: 250px;
+        border-radius: 10px;
+        margin: 0;
+    }
+
+    .box3 img{
+        width: 300px;
+        height: 250px;
+        border-radius: 10px;
+        object-fit: contain;
+    }
+
+    
+
+    .box4{
+        margin: 0;
+    }
+    .box4 img{
+        width: 300px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    
+    .box5 img{
+        width: 300px;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .projetos{
+        content: '';
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projetos1{
+        content: '';
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projetos2{
+        display: flex;
+        flex-direction: column;
+    }
+}
