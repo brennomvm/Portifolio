@@ -112,9 +112,7 @@ ul a{
 
 @media (max-width:613px) {
 
-    .borda{
-        display: none;
-    }
+   
     .nav-list{
         position: absolute;
         width: 100%;
