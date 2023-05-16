@@ -23,6 +23,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: #FFF;
+     
+
+    
+}
+
+.dark-mode{
+    background-color: #FFF;
+    color: black;
 }
 
 
